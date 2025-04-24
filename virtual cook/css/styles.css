@@ -1,0 +1,159 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0ffe0; 
+    color: #333;
+}
+
+/* Header  */
+header.main-header {
+    background-color: #ffb700; /*  yellow */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header.main-header img {
+    display: block;
+    margin: 0 auto;
+}
+
+header.main-header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header.main-header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header.main-header nav ul li a {
+    color: #000; 
+    text-decoration: none;
+}
+
+header.main-header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    color: #006400; 
+}
+
+#description p, .recipe .description, .instructions, .ingredient-list {
+    margin: 0.5em 0;
+}
+
+
+#welcome {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#welcome h2 {
+    color: #006400; 
+}
+
+
+#about-us {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+#signature-dishes {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#signature-dishes h2 {
+    color: #006400; 
+}
+
+.dish {
+    margin-bottom: 1em;
+}
+
+.dish h3 {
+    color: #ff4500; 
+}
+
+.dish img {
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+
+#contact-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 2em;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#contact-form input, #contact-form select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #ffb700; 
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #006400; 
+    color: #fff;
+}
+
+
+footer {
+    background-color: #ffb700; 
+    color: #000;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+@media (max-width: 600px) {
+    header.main-header nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    #main-content, #contact-form {
+        padding: 1em;
+    }
+}

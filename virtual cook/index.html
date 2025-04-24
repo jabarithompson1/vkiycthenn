@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jabari's Kitchen Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe5b4; /* Matches Recipes page theme */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .main-header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .main-header img {
+            margin: 10px auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+        h2 {
+            color: #e85d04;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .dish {
+            margin: 15px auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <img src="images/mexico-logo.webp" alt="Jabari's Kitchen Logo" style="width:150px;">
+        <h1 id="title">Jabari's Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.php">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li> <!-- Ensure this matches the file's location -->
+                <li><a href="logout.php">Logout</a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <main id="main-content">
+        <section id="welcome">
+            <h2>Welcome to Jabari's Kitchen – Every Bite Tells a Story!</h2>
+            <p>Embark on a flavorful journey through the heart of Mexican cooking! 🌮🔥</p>
+            <p>From sizzling street tacos to rich tamales, our kitchen celebrates tradition, passion, and bold flavors.</p>
+        </section>
+
+        <section id="signature-dishes">
+            <h2>Signature Dishes</h2>
+            <div class="dish">
+                <img src="images/tacos-al-pastor.jpg" alt="Tacos Al Pastor">
+                <h3>Tacos Al Pastor</h3>
+                <p>Marinated pork tacos topped with pineapple and fresh cilantro.</p>
+            </div>
+            <div class="dish">
+                <img src="images/chiles-rellenos.jpg" alt="Chiles Rellenos">
+                <h3>Chiles Rellenos</h3>
+                <p>Stuffed poblano peppers with cheese or meat, coated and fried.</p>
+            </div>
+            <div class="dish">
+                <img src="images/guacamole.jpg" alt="Guacamole">
+                <h3>Guacamole</h3>
+                <p>A creamy avocado dip with lime, tomato, and cilantro.</p>
+            </div>
+            <div class="dish">
+                <img src="images/tamales.jpg" alt="Tamales">
+                <h3>Tamales</h3>
+                <p>Traditional masa-filled corn husk dumplings, steamed to perfection.</p>
+            </div>
+            <div class="dish">
+                <img src="images/churros.jpg" alt="Churros">
+                <h3>Churros</h3>
+                <p>Sweet fried pastries dusted with cinnamon sugar for a perfect dessert.</p>
+            </div>
+        </section>
+
+        <section id="flag">
+            <img src="images/mexican-flag.png" alt="Mexican Flag" style="width:40%;">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jabari's Kitchen. All rights reserved.</p>
+        <p>Contact us at: <a href="mailto:tacoking@virtualkitchen.com">tacoking@virtualkitchen.com</a></p>
+    </footer>
+</body>
+</html>
